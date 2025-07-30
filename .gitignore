@@ -1,0 +1,13 @@
+# .gitignore
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+.crash
+.terraform.lock.hcl
+
+# Secrets
+*.pem
+
